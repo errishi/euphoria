@@ -1,0 +1,123 @@
+@media (min-width: 768px) and (max-width < 1024px){
+    .main-container{
+        width: max-content;
+        height: 100%;
+    }
+    header{
+        width: 100%;
+        height: 4em;
+    }
+    .menuNav{
+        visibility: visible;
+    }
+    .nav__links{
+        visibility: hidden;
+    }
+    #icon-text{
+        visibility: hidden;
+    }
+    .nav-icon{
+        align-items: center;
+    }
+    .my-profile{
+        display: flex;   
+        align-items: center;
+        margin-top: 0.4em;
+        margin-left: 2em;
+    }
+    .search-icon{
+        margin-left: -60px;
+    }
+    .slider-text{
+        width: 130%;
+        height: 9%;
+        bottom: -10%;
+    }
+    .college-card, .college-card-main{
+        margin-left: 30px;
+    }
+    .feature-head h1{
+        margin-top: 1.3em;
+    }
+    .option{
+        column-gap: 21px;
+        flex-wrap: nowrap;
+        text-align: center;
+    }
+    .feature-container{
+        bottom: -79px;
+        width: 100%;
+        height: 70%;
+    }
+    .section-title{
+        width: 127%;
+        height: 3rem;
+    }
+    .Card{
+        flex-wrap: wrap;
+        overflow: hidden;
+    }
+    .group{
+        column-gap: 4em;
+        flex-wrap: wrap;
+        bottom: -4em;
+        left: -22em;
+    }
+    .group i{
+        bottom: -1.6em;
+        left: 20px;
+    }
+    .group-1, .group-2, .group-3{
+        left: 8em;
+    }
+    .user-input-detail{
+        justify-content: space-between;
+        margin-top: 2em;
+        margin-bottom: 7em;
+    }
+}
+
+@media (min-width: 1024px) {
+    .slider-text {
+        width: 90%;
+        height: 6%;
+        bottom: 34%;
+    }
+    .menuNav{
+        visibility: hidden;
+    }
+    .nav__links{
+        visibility: visible;
+    }
+    #icon-text{
+        visibility: visible;
+    }
+    .section-title {
+        width: 91%;
+    }
+    .feature-head {
+        width: 85%;
+        margin-top: 18px;
+    }
+    .group{
+        bottom: 0em;
+        left: -4em;
+    }
+    .group i{
+        bottom: 0em;
+        left: 33px;
+    }
+    .group , .group-1, .group-2, .group-3{
+        left: 36px;
+    }
+    .user-input-detail{
+        justify-content: space-around;
+        margin-top: 4em;
+        margin-bottom: -1em;
+    }
+    .feature-container{
+        bottom: -68px;
+        width: 100%;
+        height: 75%;
+    }
+}
