@@ -33,3 +33,23 @@
     color: #14213d;
     transition: 1s ease-in-out;
 }
+
+.inbox{
+    margin-left: -72px;
+}
+
+#social-media{
+    padding: 10px 0;
+    height: 4em;
+}
+
+#social-media li i{
+    font-size: 1.5em;
+}
+
+#text, #social-media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1em;
+}

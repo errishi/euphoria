@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,118 +14,137 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
 </head>
+
 <body>
     <!-- Nav bar -->
     <header>
-            <img class="logo" src="/image/name-logo1.png" alt="logo">
-            <nav>
-                <ul class="nav__links">
-                    <li><a href="#">List your dream</a></li>
-                    <li><a href="#">New in bag</a></li>
-                    <li><a href="#">Latest Updates</a></li>
-                    <li><a href="#">More</a></li>
-                </ul>
-            </nav>
-            <div class="nav-icon">
-                <div class="my-profile">
-                    <a href="#"><i class="fa-solid fa-circle-user"></i>
-                        <p id="icon-text">Login/SignUp</p>
-                    </a>
-                </div>
-                <div class="search-icon active_box">
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                </div>
-                <span class="search-box">
-                    <input class="search-input" placeholder="Search here">
-                    <i class="fa-solid fa-xmark" id="closs"></i>
-                </span>
-                <div class="menuNav"><i class="fa-solid fa-bars"></i></div>
+        <img class="logo" src="/image/name-logo1.png" alt="logo">
+        <nav>
+            <ul class="nav__links">
+                <li><a href="#">List your dream</a></li>
+                <li><a href="#">New in bag</a></li>
+                <li><a href="#">Latest Updates</a></li>
+                <li><a href="#">More</a></li>
+            </ul>
+        </nav>
+        <div class="nav-icon">
+            <div class="my-profile">
+                <a href="#"><i class="fa-solid fa-circle-user"></i>
+                    <p id="icon-text">Login/SignUp</p>
+                </a>
             </div>
-        </header>
+            <div class="search-icon active_box">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <span class="search-box">
+                <input class="search-input" placeholder="Search here">
+                <i class="fa-solid fa-xmark" id="closs"></i>
+            </span>
+            <div class="menuNav"><i class="fa-solid fa-bars"></i></div>
+            <div class="search-icon inbox">
+                <i class="fa-regular fa-bell"></i>
+            </div>
+            <div class="search-icon">
+                <i class="fa-solid fa-headset"></i>
+            </div>
+        </div>
+    </header>
 
-        <div class="container">
-            <div class="college-card-silder">
-                <img src="/image/sliderImage/1.jpg" class="slide" alt="slider_image">
-                <img src="/image/sliderImage/2.jpg" class="slide" alt="slider_image">
-                <img src="/image/sliderImage/3.jpg" class="slide" alt="slider_image">
-                <img src="/image/sliderImage/4.jpg" class="slide" alt="slider_image">
-                <img src="/image/sliderImage/5.jpg" class="slide" alt="slider_image">
-                <i class="fa-solid fa-chevron-left" id="slide-Prev-btn" onclick="goPrev()"></i>
-                <i class="fa-solid fa-chevron-right" id="slide-Next-btn" onclick="goNext()"></i>
+    <div class="container">
+        <div class="college-card-silder">
+            <img src="/image/sliderImage/1.jpg" class="slide" alt="slider_image">
+            <img src="/image/sliderImage/2.jpg" class="slide" alt="slider_image">
+            <img src="/image/sliderImage/3.jpg" class="slide" alt="slider_image">
+            <img src="/image/sliderImage/4.jpg" class="slide" alt="slider_image">
+            <img src="/image/sliderImage/5.jpg" class="slide" alt="slider_image">
+            <i class="fa-solid fa-chevron-left" id="slide-Prev-btn" onclick="goPrev()"></i>
+            <i class="fa-solid fa-chevron-right" id="slide-Next-btn" onclick="goNext()"></i>
+        </div>
+        <!-- categories section -->
+        <div class="categories-section">
+            <div class="collegeSec">College</div>
+            <div class="e-commerce">E-commerce</div>
+            <div class="hotels">Hotel</div>
+        </div>
+
+        <!-- feature section -->
+        <div class="feature-section">
+
+        </div>
+    </div>
+
+    <!-- Social media  -->
+    <div class="social-media" id="social-media">
+        <p id="text">Follow Us On</p>
+        <ul>
+            <li><a href="#"><i class="fa-brands fa-facebook" id="facebook"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-square-x-twitter" id="twitter"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-instagram" id="instagram"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-linkedin" id="linkdin"></i></a></li>
+        </ul>
+    </div>
+
+    <!-- Footer section -->
+    <footer>
+        <div class="foot-panel1">
+            <div class="user-input-detail">
+                <div class="group-1">
+                    <i class="fa-solid fa-user-large"></i>
+                    <input type="text" class="input" placeholder="Name">
+                </div>
+                <div class="group-2">
+                    <i class="fa-solid fa-phone"></i>
+                    <input type="tel" class="input" placeholder="Mobile Number">
+                </div>
+                <div class="group-3">
+                    <i class="fa-regular fa-envelope"></i>
+                    <input type="email" class="input" placeholder="Email">
+                </div>
+                <div class="group">
+                    <i class="fa-brands fa-steam-symbol"></i>
+                    <input type="text" class="input" placeholder="Your Stream">
+                </div>
             </div>
-            <!-- categories section -->
-            <div class="categories-section">
-                <div class="collegeSec">College</div>
-                <div class="e-commerce">E-commerce</div>
-                <div class="hotels">Hotel</div>
+            <div class="request-btn">
+                <button>REQUEST FOR A CALL</button>
             </div>
-    
-            <!-- feature section -->
-            <div class="feature-section">
-    
+            <div class="sub-text">
+                <p>By proceeding ahead you expressly agree to the Euphoria terms of use and privacy policy.</p>
             </div>
         </div>
 
-        <!-- Footer section -->
-        <footer>
-            <div class="foot-panel1">
-                <div class="user-input-detail">
-                    <div class="group-1">
-                        <i class="fa-solid fa-user-large"></i>
-                        <input type="text" class="input" placeholder="Name">
-                    </div>
-                    <div class="group-2">
-                        <i class="fa-solid fa-phone"></i>
-                        <input type="tel" class="input" placeholder="Mobile Number">
-                    </div>
-                    <div class="group-3">
-                        <i class="fa-regular fa-envelope"></i>
-                        <input type="email" class="input" placeholder="Email">
-                    </div>
-                    <div class="group">
-                        <i class="fa-brands fa-steam-symbol"></i>
-                        <input type="text" class="input" placeholder="Your Stream">
-                    </div>
+        <div class="foot-panel2">
+            <div class="logo-footer"></div>
+            <div class="foot-other">
+                <div class="language border1 country">
+                    <i class="fa-solid fa-globe"></i>
+                    English
                 </div>
-                <div class="request-btn">
-                    <button>REQUEST FOR A CALL</button>
+                <div class="currency left border1 country">
+                    <i class="fa-solid fa-indian-rupee-sign"></i>
+                    INR - Indian Rupee
                 </div>
-                <div class="sub-text">
-                    <p>By proceeding ahead you expressly agree to the Euphoria terms of use and privacy policy.</p>
+                <div class="country left border1">
+                    <div class="country-image"></div>
+                    <p class="language">India</p>
                 </div>
             </div>
+        </div>
 
-            <div class="foot-panel2">
-                <div class="logo-footer"></div>
-                <div class="foot-other">
-                    <div class="language border1 country">
-                        <i class="fa-solid fa-globe"></i>
-                        English
-                    </div>
-                    <div class="currency left border1 country">
-                        <i class="fa-solid fa-indian-rupee-sign"></i>
-                        INR - Indian Rupee
-                    </div>
-                    <div class="country left border1">
-                        <div class="country-image"></div>
-                        <p class="language">India</p>
-                    </div>
-                </div>
+        <div class="foot-panel3">
+            <div class="pages">
+                <a href="#">Conditions of Use</a>
+                <a href="#" class="left">Privacy Notice</a>
+                <a href="#" class="left">Your Ads Privacy Choices</a>
             </div>
-
-            <div class="foot-panel3">
-                <div class="pages">
-                    <a href="#">Conditions of Use</a>
-                    <a href="#" class="left">Privacy Notice</a>
-                    <a href="#" class="left">Your Ads Privacy Choices</a>
-                </div>
-                <div class="copyright">
-                    © 2024, Euphoria , All rights are reserved.
-                </div>
+            <div class="copyright">
+                © 2024, Euphoria , All rights are reserved.
             </div>
-        </footer>
+        </div>
+    </footer>
 
     <script src="index.js"></script>
     <script src="college.js"></script>
 </body>
+
 </html>
