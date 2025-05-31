@@ -94,6 +94,53 @@
     font-size: 1.1em;
 }
 
+.topCity{
+    padding-bottom: 3em;
+}
+
+#cards{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 2em;
+}
+
+#cardText, #cardText1, #cardText2, #cardText3, #cardText4, #cardText5{
+    position: absolute;
+    bottom: -42.5em;
+    color: #fff;
+    font-weight: 500;
+    filter:drop-shadow(0 0 0.75rem black);
+}
+
+#cardText{
+    left: 6em;
+}
+#cardText1{
+    left: 20em;
+}
+#cardText2{
+    left: 34em;
+}
+#cardText3{
+    left: 48em;
+}
+#cardText4{
+    left: 62em;
+}
+#cardText5{
+    left: 76em;
+}
+
+.city-card{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
 .city-card img{
-    
+    width: 150px;
+    height: 180px;
+    border-radius: 10px;
 }
